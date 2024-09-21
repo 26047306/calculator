@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color:#15b5b0;
+  font-family: 'Roboto', sans-serif; 
+}
+
+h1{
+  background-color: rgb(9, 162, 162);
+  box-shadow: 1px  1px  10px rgb(3, 3, 3);
+  position: relative;
+  background-color: 15b5b0;
+  border-radius: 100px;
+  width: 400px;
+  height: 70px;
+  background-size: cover;
+  background-position: center;
+  background-size: 97%;
+  -webkit-box-shadow: 1px 1px 10px #000;
+  box-shadow: 1px 1px 10px #000 ;
+  -webkit-transform: preserve-3d;
+  -ms-transform: preserve-3d;
+  transform: preserve-3d;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  display: -webkit-box;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  color: aliceblue;
+  margin: 0 3px;
+  border-radius: 9px;
+  cursor: pointer;
+  background-color: rgb(147, 144, 132);
+  box-shadow: 1px  1px  10px black;
+}
+
+.row{
+  margin: 8px 0;
+  border-radius: 10px;
+  box-shadow: 1px  1px  10px rgb(10, 5, 5);
+}
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 7px solid rgb(247, 234, 234);
+    border-radius: 5px;
+    background-color: rgb(248, 148, 8);
+}
+.text-center{
+  text-align: center;
+}
+
+.bg-red{
+  background: red;
+}
+
+.mx-auto{
+  margin: auto;
+}
+
+.flex{
+  display:flex;
+} 
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
